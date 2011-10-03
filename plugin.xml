@@ -6,7 +6,7 @@
       <configurator
             class="com.daysofwonder.tools.m2e.protoc.ProtocProjectConfigurator"
             id="m2e-protoc-connector.configurator"
-            name="M2E Protoc Connector">
+            name="M2E Protocol Buffer Connector">
       </configurator>
    </extension>
    <extension

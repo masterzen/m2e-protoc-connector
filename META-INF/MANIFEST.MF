@@ -1,6 +1,6 @@
 Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
-Bundle-Name: M2E Protoc Connector
+Bundle-Name: M2E Protocol Buffer Connector
 Bundle-SymbolicName: m2e-protoc-connector;singleton:=true
 Bundle-Version: 1.0.0.qualifier
 Bundle-Activator: m2e_protoc_connector.Activator
@@ -15,3 +15,4 @@ Bundle-ActivationPolicy: lazy
 Bundle-RequiredExecutionEnvironment: JavaSE-1.6
 Export-Package: com.daysofwonder.tools.m2e.protoc,
  m2e_protoc_connector
+Bundle-Vendor: Days of Wonder, Inc.

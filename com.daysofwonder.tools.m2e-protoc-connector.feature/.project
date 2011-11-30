@@ -1,22 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>com.daysofwonder.tools.m2e-protoc-connector</name>
+	<name>com.daysofwonder.tools.m2e-protoc-connector.feature</name>
 	<comment></comment>
 	<projects>
 	</projects>
 	<buildSpec>
 		<buildCommand>
-			<name>org.eclipse.jdt.core.javabuilder</name>
+			<name>org.eclipse.pde.FeatureBuilder</name>
 			<arguments>
 			</arguments>
 		</buildCommand>
 		<buildCommand>
-			<name>org.eclipse.pde.ManifestBuilder</name>
-			<arguments>
-			</arguments>
-		</buildCommand>
-		<buildCommand>
-			<name>org.eclipse.pde.SchemaBuilder</name>
+			<name>org.maven.ide.eclipse.maven2Builder</name>
 			<arguments>
 			</arguments>
 		</buildCommand>
@@ -28,7 +23,7 @@
 	</buildSpec>
 	<natures>
 		<nature>org.eclipse.m2e.core.maven2Nature</nature>
-		<nature>org.eclipse.pde.PluginNature</nature>
-		<nature>org.eclipse.jdt.core.javanature</nature>
+		<nature>org.maven.ide.eclipse.maven2Nature</nature>
+		<nature>org.eclipse.pde.FeatureNature</nature>
 	</natures>
 </projectDescription>

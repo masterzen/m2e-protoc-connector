@@ -1,8 +1,8 @@
 Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: M2E Protocol Buffer Connector
-Bundle-SymbolicName: m2e-protoc-connector;singleton:=true
-Bundle-Version: 1.0.0.qualifier
+Bundle-SymbolicName: com.daysofwonder.tools.m2e-protoc-connector;singleton:=true
+Bundle-Version: 1.0.0.20111130-1035
 Bundle-Activator: m2e_protoc_connector.Activator
 Require-Bundle: org.eclipse.core.runtime,
  org.eclipse.m2e.core;bundle-version="1.0.100",

@@ -1,3 +1,5 @@
+// Copyright (c) 2011, Days of Wonder, Inc. All Rights Reserved
+
 package m2e_protoc_connector;
 
 import org.osgi.framework.BundleActivator;

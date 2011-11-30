@@ -1,3 +1,5 @@
+// Copyright (c) 2011, Days of Wonder, Inc. All Rights Reserved
+
 package com.daysofwonder.tools.m2e.protoc;
 
 import java.io.File;

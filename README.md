@@ -7,7 +7,7 @@ Maven builds inside eclipse.
 == Build
 
 To build the plugin:
-``` sh
+```
 mvn package
 ```
 
@@ -17,11 +17,13 @@ It is necessary to use Maven 3, as Maven 2 can't build connectors.
 
 == Installation
 
-In Eclipse Indigo, open the ``Install New Software`` window from the ``Help`` menu.
-Then click on the ``Add`` button, select the ``Archive`` button and point it to the:
-``com.daysofwonder.tools.m2e-protoc-connector.feature/target/com.daysofwonder.tools.m2e-protoc-connector.feature-1.0.0.20111130-1035-site.zip`` file.
+In Eclipse Indigo:
 
-Accept the license terms and restart eclipse. 
+1. open the ``Install New Software`` window from the ``Help`` menu.
+1. Then click on the ``Add`` button
+1. select the ``Archive`` button and point it to the:
+``com.daysofwonder.tools.m2e-protoc-connector.feature/target/com.daysofwonder.tools.m2e-protoc-connector.feature-1.0.0.20111130-1035-site.zip`` file.
+1. Accept the license terms and restart eclipse. 
 
 == Usage
 
@@ -29,7 +31,8 @@ Once installed, and if your project has already been imported, you must use M2E 
 to instruct eclipse and m2e to use the new connector.
 
 You project POM should use the maven-protoc-plugin like this:
-``` xml
+
+```
 	<plugin>
 		<groupId>com.google.protobuf.tools</groupId>
 		<artifactId>maven-protoc-plugin</artifactId>

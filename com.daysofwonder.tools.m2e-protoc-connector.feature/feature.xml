@@ -8,7 +8,7 @@
 -->
 <feature
       id="com.daysofwonder.tools.m2e-protoc-connector.feature"
-      label="Maven SCM Handler for EGit"
+      label="Maven M2E connector for Protobuf"
       version="1.0.0.20111130-1035"
       provider-name="Days of Wonder, Inc."
       plugin="com.daysofwonder.tools.m2e-protoc-connector">
@@ -32,8 +32,6 @@
    <requires>
       <import feature="org.eclipse.platform" version="3.4.0" match="greaterOrEqual"/>
       <import feature="org.eclipse.m2e.feature"/>
-      <import feature="org.eclipse.egit"/>
-      <import feature="org.eclipse.jgit"/>
    </requires>
 
    <plugin

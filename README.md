@@ -1,12 +1,13 @@
-Lifecycle M2E connector for maven-protoc-plugin
-===============================================
+# Lifecycle M2E connector for maven-protoc-plugin #
 
 This is a m2e connector to be able to build Google Protobuf
 Maven builds inside eclipse.
 
-== Build
+## Build ##
+
 
 To build the plugin:
+
 ```
 mvn package
 ```
@@ -15,7 +16,7 @@ This will both create the plugin jar and the eclipse feature.
 
 It is necessary to use Maven 3, as Maven 2 can't build connectors.
 
-== Installation
+## Installation ##
 
 In Eclipse Indigo:
 
@@ -25,14 +26,15 @@ In Eclipse Indigo:
 ``com.daysofwonder.tools.m2e-protoc-connector.feature/target/com.daysofwonder.tools.m2e-protoc-connector.feature-1.0.0.20111130-1035-site.zip`` file.
 1. Accept the license terms and restart eclipse. 
 
-== Usage
+## Usage ##
+
 
 Once installed, and if your project has already been imported, you must use M2E "Update Project Configuration"
 to instruct eclipse and m2e to use the new connector.
 
-You project POM should use the maven-protoc-plugin like this:
+You project POM should use the _maven-protoc-plugin_ like this:
 
-```
+```xml
 	<plugin>
 		<groupId>com.google.protobuf.tools</groupId>
 		<artifactId>maven-protoc-plugin</artifactId>

@@ -18,6 +18,8 @@ It is necessary to use Maven 3, as Maven 2 can't build connectors.
 
 ## Installation ##
 
+### From sources
+
 In Eclipse Indigo:
 
 1. open the ``Install New Software`` window from the ``Help`` menu.
@@ -25,6 +27,11 @@ In Eclipse Indigo:
 1. select the ``Archive`` button and point it to the:
 ``com.daysofwonder.tools.m2e-protoc-connector.feature/target/com.daysofwonder.tools.m2e-protoc-connector.feature-1.0.0.20111130-1035-site.zip`` file.
 1. Accept the license terms and restart eclipse. 
+
+### From update site archive
+
+1. get file from https://github.com/masterzen/m2e-protoc-connector/downloads
+1. in Eclipse Help -> Install New Software.. -> Add.. -> Archive..
 
 ## Usage ##
 

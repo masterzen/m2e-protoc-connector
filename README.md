@@ -69,3 +69,7 @@ You project POM should use the _maven-protoc-plugin_ like this:
 		</pluginRepository>
 	</pluginRepositories>
 ```
+
+#### Links
+
+[blog article](http://www.masterzen.fr/2011/12/25/protobuf-maven-m2e-and-eclipse-are-on-a-boat/)
